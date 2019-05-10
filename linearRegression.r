@@ -1,12 +1,13 @@
-## Mixture of experts (linear regression)
+## Mixture of Gaussians (test example)
 
 # Clear workspace
 rm(list = ls())
 
 # Load required packages
 library(tidyverse)
-# Load data
+library(readr)
 
-## Initial test dataset with socio-economic / demographic factors
+## Load data
+# Initial test dataset with socio-economic / demographic factors
 detData <- read_csv("S:/HelenJohnson/Herpes Zoster/Data/testData.csv", 
 			col_names = TRUE)
